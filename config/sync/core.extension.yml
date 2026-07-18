@@ -10,6 +10,7 @@ module:
   block_content: 0
   breakpoint: 0
   ckeditor5: 0
+  code_highlight: 0
   config: 0
   contact: 0
   contextual: 0
@@ -41,6 +42,7 @@ module:
   page_cache: 0
   path: 0
   path_alias: 0
+  prismjs: 0
   redirect: 0
   schema_article: 0
   schema_metatag: 0

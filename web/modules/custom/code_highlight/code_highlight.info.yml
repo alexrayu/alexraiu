@@ -1,0 +1,7 @@
+name: Code Highlight
+type: module
+description: 'Attaches the PrismJS syntax highlighter to rendered node content.'
+package: Custom
+core_version_requirement: ^11
+dependencies:
+  - 'prismjs:prismjs'

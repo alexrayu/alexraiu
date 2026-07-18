@@ -1,0 +1,18 @@
+<?php
+
+/**
+ * @file
+ * Loads PrismJS syntax highlighting on rendered node content.
+ */
+
+/**
+ * Implements hook_preprocess_HOOK() for node templates.
+ *
+ * Imported markdown stores code blocks as <pre><code class="language-*">, which
+ * PrismJS highlights client-side. The theme mirrors the PrismJS module setting.
+ */
+function code_highlight_preprocess_node(array &$variables) {
+  $theme = \Drupal::config('prismjs.settings')->get('theme') ?: 'okaidia';
+  $variables['#attached']['library'][] = 'prismjs/prismjs.' . $theme;
+  $variables['#attached']['library'][] = 'code_highlight/pre_class';
+}

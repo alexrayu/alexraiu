@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2ec9a44331379f253378ea36b08b8e55",
+    "content-hash": "e0803e8265f1b3de110927d04ff37eab",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1882,6 +1882,51 @@
                 "source": "https://cgit.drupalcode.org/pathauto",
                 "issues": "https://www.drupal.org/project/issues/pathauto",
                 "documentation": "https://www.drupal.org/docs/8/modules/pathauto"
+            }
+        },
+        {
+            "name": "drupal/prismjs",
+            "version": "1.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/prismjs.git",
+                "reference": "1.1.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/prismjs-1.1.4.zip",
+                "reference": "1.1.4",
+                "shasum": "97b3a445092f3b2718bda3a777a8a724a0c3cf9c"
+            },
+            "require": {
+                "drupal/core": "^9.2 || ^10 || ^11",
+                "php": "^7.3 || ^8.0 || ^8.1"
+            },
+            "type": "drupal-module",
+            "extra": {
+                "drupal": {
+                    "version": "1.1.4",
+                    "datestamp": "1738425846",
+                    "security-coverage": {
+                        "status": "not-covered",
+                        "message": "Project has not opted into security advisory coverage!"
+                    }
+                }
+            },
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "sujan shrestha",
+                    "homepage": "https://www.drupal.org/user/3475737"
+                }
+            ],
+            "description": "Provides a ckeditor5 and drupal plugin to embed styled content into ckeditor text areas.",
+            "homepage": "http://drupal.org/project/prismjs",
+            "support": {
+                "source": "https://git.drupalcode.org/project/prismjs"
             }
         },
         {
@@ -7837,5 +7882,5 @@
     "prefer-lowest": false,
     "platform": {},
     "platform-dev": {},
-    "plugin-api-version": "2.9.0"
+    "plugin-api-version": "2.6.0"
 }

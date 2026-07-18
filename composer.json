@@ -26,6 +26,7 @@
         "drupal/honeypot": "^2.2",
         "drupal/metatag": "^2.2",
         "drupal/pathauto": "^1.15",
+        "drupal/prismjs": "^1.1",
         "drupal/redirect": "^1.13",
         "drupal/schema_metatag": "^3.0",
         "drupal/simple_sitemap": "^4.2",
