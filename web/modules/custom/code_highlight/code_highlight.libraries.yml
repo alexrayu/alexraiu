@@ -1,4 +1,7 @@
 pre_class:
+  css:
+    theme:
+      css/code_highlight.css: {}
   js:
     js/code_highlight.js: {}
   dependencies:
