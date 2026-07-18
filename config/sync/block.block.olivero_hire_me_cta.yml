@@ -1,0 +1,23 @@
+uuid: 1ed3868d-2534-4c9d-9a32-cea874328c86
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:27f302f7-b830-4982-98dc-c6af2955466e'
+  module:
+    - block_content
+  theme:
+    - olivero
+id: olivero_hire_me_cta
+theme: olivero
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:27f302f7-b830-4982-98dc-c6af2955466e'
+settings:
+  id: 'block_content:27f302f7-b830-4982-98dc-c6af2955466e'
+  label: 'Hire me'
+  label_display: '0'
+  provider: block_content
+  view_mode: full
+visibility: {  }

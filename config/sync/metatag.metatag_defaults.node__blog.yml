@@ -1,0 +1,30 @@
+uuid: 985afb84-70aa-4ccf-a244-f69c2c6778e0
+langcode: en
+status: true
+dependencies: {  }
+id: node__blog
+label: null
+tags:
+  canonical_url: '[node:url]'
+  description: '[node:field_summary]'
+  og_type: article
+  og_url: '[node:url]'
+  og_title: '[node:title]'
+  og_description: '[node:field_summary]'
+  og_image: '[node:field_featured_image:entity:url]'
+  og_site_name: '[site:name]'
+  twitter_cards_type: summary_large_image
+  twitter_cards_title: '[node:title]'
+  twitter_cards_description: '[node:field_summary]'
+  twitter_cards_image: '[node:field_featured_image:entity:url]'
+  schema_article_type: BlogPosting
+  schema_article_id: '[node:url]#article'
+  schema_article_main_entity_of_page: '[node:url]'
+  schema_article_name: '[node:title]'
+  schema_article_headline: '[node:title]'
+  schema_article_description: '[node:field_summary]'
+  schema_article_image: '[node:field_featured_image:entity:url]'
+  schema_article_date_published: '[node:created:custom:c]'
+  schema_article_date_modified: '[node:changed:custom:c]'
+  schema_article_author: 'a:2:{s:5:"@type";s:6:"Person";s:4:"name";s:11:"Alexei Raiu";}'
+  schema_article_publisher: 'a:2:{s:5:"@type";s:12:"Organization";s:4:"name";s:11:"[site:name]";}'

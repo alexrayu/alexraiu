@@ -1,0 +1,15 @@
+_core:
+  default_config_hash: ijfbzDTN4CbE7Sr-6ubWzy_t1vH4OtU1doNCLssVz-4
+langcode: en
+uuid: 59098931-ed7a-4ce4-8f82-acfcd139c4ea
+name: 'Alexei Raiu'
+mail: alex.rayu@gmail.com
+slogan: 'Drupal expertise on demand'
+page:
+  403: ''
+  404: ''
+  front: /node/1
+admin_compact_mode: false
+weight_select_max: 100
+default_langcode: en
+mail_notification: null

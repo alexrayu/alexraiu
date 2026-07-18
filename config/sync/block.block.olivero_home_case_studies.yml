@@ -1,0 +1,30 @@
+uuid: 73c23344-be53-4bef-8871-43668f865cbd
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.case_studies
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_home_case_studies
+theme: olivero
+region: content_below
+weight: 1
+provider: null
+plugin: 'views_block:case_studies-block_1'
+settings:
+  id: 'views_block:case_studies-block_1'
+  label: 'Selected case studies'
+  label_display: visible
+  provider: views_block
+  views_label: ''
+  items_per_page: null
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: '<front>'

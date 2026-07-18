@@ -1,0 +1,62 @@
+uuid: 181f2f4c-8174-450d-9b58-eeba3e5e83ce
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.case_study.field_approach
+    - field.field.node.case_study.field_client
+    - field.field.node.case_study.field_featured_image
+    - field.field.node.case_study.field_link
+    - field.field.node.case_study.field_outcome
+    - field.field.node.case_study.field_problem
+    - field.field.node.case_study.field_summary
+    - field.field.node.case_study.field_tags
+    - field.field.node.case_study.field_tech
+    - node.type.case_study
+  module:
+    - image
+    - user
+id: node.case_study.teaser
+targetEntityType: node
+bundle: case_study
+mode: teaser
+content:
+  field_featured_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 7
+    region: content
+  field_summary:
+    type: basic_string
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_tags:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 9
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_approach: true
+  field_client: true
+  field_link: true
+  field_outcome: true
+  field_problem: true
+  field_tech: true

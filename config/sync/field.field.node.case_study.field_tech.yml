@@ -1,0 +1,19 @@
+uuid: ccb2e285-c10a-4cd0-9178-75d91b1df9aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_tech
+    - node.type.case_study
+id: node.case_study.field_tech
+field_name: field_tech
+entity_type: node
+bundle: case_study
+label: 'Tech stack'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

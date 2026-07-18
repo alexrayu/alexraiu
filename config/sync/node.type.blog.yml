@@ -1,0 +1,11 @@
+uuid: 421836bd-d2df-41be-8581-50a724d0785f
+langcode: en
+status: true
+dependencies: {  }
+name: Blog
+type: blog
+description: 'Opinion, updates, and shorter posts.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

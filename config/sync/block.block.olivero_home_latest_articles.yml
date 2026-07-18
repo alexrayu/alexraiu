@@ -1,0 +1,30 @@
+uuid: 12951706-790d-4e56-a663-3b304fbe968e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.articles
+  module:
+    - system
+    - views
+  theme:
+    - olivero
+id: olivero_home_latest_articles
+theme: olivero
+region: content_below
+weight: 0
+provider: null
+plugin: 'views_block:articles-block_1'
+settings:
+  id: 'views_block:articles-block_1'
+  label: 'Latest articles'
+  label_display: visible
+  provider: views_block
+  views_label: ''
+  items_per_page: null
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    context_mapping: {  }
+    pages: '<front>'

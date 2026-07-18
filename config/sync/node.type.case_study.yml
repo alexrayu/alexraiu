@@ -1,0 +1,11 @@
+uuid: d17f15d3-9a6c-4fe8-9643-a640648d0c62
+langcode: en
+status: true
+dependencies: {  }
+name: 'Case study'
+type: case_study
+description: 'Proof-of-work: problem, approach, and outcome.'
+help: null
+new_revision: true
+preview_mode: 1
+display_submitted: true

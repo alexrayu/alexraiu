@@ -1,0 +1,12 @@
+uuid: 7f217050-f468-4abf-aa0a-f47f46362fed
+langcode: en
+status: true
+dependencies: {  }
+id: feedback
+label: Contact
+recipients:
+  - alex.rayu@gmail.com
+reply: 'Thanks for reaching out. I will get back to you shortly.'
+weight: 0
+message: 'Your message has been sent.'
+redirect: ''

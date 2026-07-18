@@ -1,0 +1,22 @@
+uuid: 7d60502f-e9c2-4284-992f-9ba0f8a0a3c0
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_approach
+    - node.type.case_study
+  module:
+    - text
+id: node.case_study.field_approach
+field_name: field_approach
+entity_type: node
+bundle: case_study
+label: Approach
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long
