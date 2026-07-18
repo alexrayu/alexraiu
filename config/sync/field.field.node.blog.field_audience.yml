@@ -1,0 +1,25 @@
+uuid: 46901019-6ed9-48b5-bbe3-16beb6bf91ae
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_audience
+    - node.type.blog
+    - taxonomy.vocabulary.audience
+id: node.blog.field_audience
+field_name: field_audience
+entity_type: node
+bundle: blog
+label: Audience
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      audience: audience
+    auto_create: false
+field_type: entity_reference

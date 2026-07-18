@@ -29,7 +29,8 @@
         "drupal/redirect": "^1.13",
         "drupal/schema_metatag": "^3.0",
         "drupal/simple_sitemap": "^4.2",
-        "drush/drush": "^13.7"
+        "drush/drush": "^13.7",
+        "league/commonmark": "^2.8"
     },
     "conflict": {
         "drupal/drupal": "*"

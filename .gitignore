@@ -13,6 +13,7 @@ phpunit.xml
 .env
 /web/.env
 /.claude/settings.local.json
+/content-drafts
 
 # Ignore user media files
 web/sites/*/files

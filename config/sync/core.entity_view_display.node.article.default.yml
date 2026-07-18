@@ -4,6 +4,7 @@ status: true
 dependencies:
   config:
     - field.field.node.article.body
+    - field.field.node.article.field_audience
     - field.field.node.article.field_featured_image
     - field.field.node.article.field_summary
     - field.field.node.article.field_tags
@@ -23,6 +24,14 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 1
+    region: content
+  field_audience:
+    type: entity_reference_label
+    label: inline
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 20
     region: content
   field_featured_image:
     type: image

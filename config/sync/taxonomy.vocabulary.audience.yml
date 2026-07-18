@@ -1,0 +1,9 @@
+uuid: 0b166336-a21c-49ce-b6a9-bbe9ffc98db7
+langcode: en
+status: true
+dependencies: {  }
+name: Audience
+vid: audience
+description: 'Who the content is written for.'
+weight: 0
+new_revision: false
